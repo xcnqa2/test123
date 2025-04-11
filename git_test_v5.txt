@@ -1,0 +1,20 @@
+
+  service apcd stop 
+  rpm -qa | grep ^aps
+  rpm -e aps_mypccore
+  rpm -e aps_aprmsuitecore
+  rpm -e aps_aprmcore
+  rpm -e aps_apmcore
+  rpm -e aps_apccore
+  rpm -e aps_common
+  rpm -e aps_installer
+      
+  제거
+ service apcd stop ㄴㅁㄹㄴㅇㄹ
+ rpm -qa | grep ^apsㅈㅅㄷㅅㅈㄷㅅㅈㅅ
+ yum remove aps_common
+ yum remove aps_installer
+
+
+
+
